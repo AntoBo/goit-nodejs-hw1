@@ -32,7 +32,6 @@ async function getContactById(contactId) {
     }
 }
 
-// getContactById(65);
 async function removeContact(contactId) {
     try {
         const readData = await fs.readFile(path.resolve(contactsPath), "utf-8");
